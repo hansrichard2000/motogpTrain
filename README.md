@@ -11,7 +11,7 @@ This project based from Laravel framework which is open-sourced software license
     $ cp .env.example .env
     $ php artisan key:generate
     ```
-* setup .env file then run migrate command
+* setup .env file with your true database name (you need to create your database first in localhost/phpmyadmin then adjust .env file at database section to the name of database that you create in phpmyadmin. After that run migrate command like bellow.
     ```
     $ php artisan migrate --seed
     ```
