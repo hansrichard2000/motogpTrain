@@ -7,7 +7,7 @@ This project based from Laravel framework which is open-sourced software license
 * Open project folder and run git bash terminal
 * Run this following command in bash terminal
     ```javascript
-    $ composer install (apabila error maka gunakan $ composer update untuk update ke composer 2)
+    $ composer install (if error use $ composer update to upgrade to composer 2)
     $ cp .env.example .env
     $ php artisan key:generate
     ```
